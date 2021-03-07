@@ -11,6 +11,14 @@
         android:layout_height="wrap_content"
         android:src="@drawable/frame2"/>
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Morning Sunday  :)"
+        android:textSize="60dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
 
 </FrameLayout>
