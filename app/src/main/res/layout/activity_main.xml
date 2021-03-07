@@ -4,21 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/frame2"/>
+        android:src="@drawable/pascal2"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Morning Sunday  :)"
-        android:textSize="60dp"
-        android:textAlignment="center"
-        android:layout_gravity="center"
+        android:text="Pascal Pahlevi Pasha"
+        android:textSize="35dp"
+        android:layout_gravity="top|center"
         android:textColor="@color/white"
         android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have A Nice Day :)"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom|center"/>
 
 </FrameLayout>
